@@ -7,7 +7,9 @@ export default function RootLayout({ children }) {
 
                     <ul>
                         <li>
-                            <a href="/">Home</a>
+                          <Link href="/">
+                            <a>Home</a>
+                          </Link>
                         </li>
                         <li>
                             <a href="/about">About</a>
